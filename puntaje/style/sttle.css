@@ -1,0 +1,24 @@
+body{
+    background-color: black;
+}
+
+.puntaje{
+    margin-top: 200px;
+    height: 12rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: rgb(255, 255, 255) solid;
+}
+.item{
+    background-color: rgb(255, 255, 255);
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    -webkit-mask-image: url("https://archivos.territorio.la/archivos/clases/estrella___76653bf2b6c231d___.svg");
+    mask-image: url("https://archivos.territorio.la/archivos/clases/estrella___76653bf2b6c231d___.svg");
+}
+
+.item.select{
+    background-color: rgb(255, 0, 255);
+}
